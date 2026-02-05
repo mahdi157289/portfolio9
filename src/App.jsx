@@ -13,13 +13,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import SkillDetail from './components/SkillDetail';
 import Background from './components/Background';
-import CursorGlow from './components/CursorGlow';
+import MatrixCursor from './components/MatrixCursor';
 
 function App() {
   return (
     <Router>
-      {/* <Background /> */}
-      {/* <CursorGlow /> */}
+      <Background />
+      <MatrixCursor />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/skill/:name" element={<SkillDetail />} />
