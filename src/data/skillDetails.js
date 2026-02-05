@@ -21,7 +21,7 @@ export const skillDetails = {
       step3: "cd my-app",
       step4: "npm start"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/react/react-original.svg"
   },
   "Next.js": {
     name: "Next.js",
@@ -39,7 +39,7 @@ export const skillDetails = {
       step3: "cd my-next-app",
       step4: "npm run dev"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/nextjs/nextjs-original.svg"
   },
   "TypeScript": {
     name: "TypeScript",
@@ -57,7 +57,7 @@ export const skillDetails = {
       step3: "Create .ts files",
       step4: "tsc index.ts"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/typescript/typescript-original.svg"
   },
   "Tailwind": {
     name: "Tailwind CSS",
@@ -75,7 +75,7 @@ export const skillDetails = {
       step3: "Configure tailwind.config.js",
       step4: "Add directives to CSS"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/tailwindcss/tailwindcss-original.svg"
   },
 
   // --- Design ---
@@ -95,7 +95,7 @@ export const skillDetails = {
       step3: "Create a frame (press F)",
       step4: "Start designing!"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/figma/figma-original.svg"
   },
   "Adobe XD": {
     name: "Adobe XD",
@@ -113,7 +113,7 @@ export const skillDetails = {
       step3: "Design UI elements",
       step4: "Switch to Prototype mode"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-plain.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/xd/xd-plain.svg"
   },
   "Photoshop": {
     name: "Adobe Photoshop",
@@ -131,7 +131,7 @@ export const skillDetails = {
       step3: "Select tools from toolbar",
       step4: "Work with layers"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-plain.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/photoshop/photoshop-plain.svg"
   },
   "Canva": {
     name: "Canva",
@@ -149,7 +149,7 @@ export const skillDetails = {
       step3: "Drag & drop elements",
       step4: "Download or share"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/canva/canva-original.svg"
   },
 
   // --- Backend ---
@@ -169,7 +169,7 @@ export const skillDetails = {
       step3: "Write HTTP server code",
       step4: "node server.js"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/nodejs/nodejs-original.svg"
   },
   "Python": {
     name: "Python",
@@ -187,7 +187,7 @@ export const skillDetails = {
       step3: "print('Hello World')",
       step4: "python script.py"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/python/python-original.svg"
   },
   "Express": {
     name: "Express.js",
@@ -205,7 +205,7 @@ export const skillDetails = {
       step3: "Define routes",
       step4: "app.listen(3000)"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/express/express-original.svg"
   },
   "FastAPI": {
     name: "FastAPI",
@@ -223,7 +223,7 @@ export const skillDetails = {
       step3: "Define app = FastAPI()",
       step4: "uvicorn main:app --reload"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/fastapi/fastapi-original.svg"
   },
 
   // --- AI & ML ---
@@ -243,7 +243,7 @@ export const skillDetails = {
       step3: "Build your model",
       step4: "Train and evaluate"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/tensorflow/tensorflow-original.svg"
   },
   "PyTorch": {
     name: "PyTorch",
@@ -261,7 +261,7 @@ export const skillDetails = {
       step3: "Define tensors/models",
       step4: "Run training loop"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/pytorch/pytorch-original.svg"
   },
   "OpenAI": {
     name: "OpenAI API",
@@ -317,7 +317,7 @@ export const skillDetails = {
       step3: "Connect via client/CLI",
       step4: "Execute SQL queries"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/postgresql/postgresql-original.svg"
   },
   "MongoDB": {
     name: "MongoDB",
@@ -335,7 +335,7 @@ export const skillDetails = {
       step3: "Insert documents",
       step4: "Query collections"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/mongodb/mongodb-original.svg"
   },
   "Redis": {
     name: "Redis",
@@ -353,7 +353,7 @@ export const skillDetails = {
       step3: "SET key value",
       step4: "GET key"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/redis/redis-original.svg"
   },
   "MySQL": {
     name: "MySQL",
@@ -371,7 +371,7 @@ export const skillDetails = {
       step3: "Create user & DB",
       step4: "Connect and query"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/mysql/mysql-original.svg"
   },
 
   // --- DevOps & Cloud ---
@@ -391,7 +391,7 @@ export const skillDetails = {
       step3: "docker build -t my-app .",
       step4: "docker run my-app"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/docker/docker-original.svg"
   },
   "AWS": {
     name: "Amazon Web Services",
@@ -427,7 +427,7 @@ export const skillDetails = {
       step3: "git commit -m 'Initial commit'",
       step4: "git push origin main"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/git/git-original.svg"
   },
   "Linux": {
     name: "Linux",
@@ -445,7 +445,7 @@ export const skillDetails = {
       step3: "Update packages (apt/pacman)",
       step4: "Explore filesystem"
     },
-    imagePlaceholder: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+    imagePlaceholder: "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/linux/linux-original.svg"
   },
 
   // Fallback
