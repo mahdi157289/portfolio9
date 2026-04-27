@@ -46,10 +46,11 @@ const Stars = (props) => {
   );
 };
 
-const ShootingStar = () => {
+const ShootingStar = ({ index }) => {
   const { viewport } = useThree();
   const groupRef = useRef();
   const [active, setActive] = useState(false);
+  const timer = useRef(index === 0 ? 30 : 15);
   
   // Random color for each star
   const color = useMemo(() => {
@@ -79,8 +80,12 @@ const ShootingStar = () => {
   };
 
   useFrame((state, delta) => {
+    timer.current += delta;
     if (!active) {
-      if (Math.random() < 0.01) reset(); // 1% chance per frame to spawn
+      if (timer.current >= 30) {
+        reset();
+        timer.current = 0;
+      }
       return;
     }
     if (groupRef.current) {
@@ -127,8 +132,8 @@ const Background = () => {
     <div className="fixed inset-0 z-0 pointer-events-none">
       <Canvas camera={{ position: [0, 0, 1] }}>
         <Stars radius={50} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
-        {Array.from({ length: 3 }).map((_, i) => (
-          <ShootingStar key={i} />
+        {Array.from({ length: 2 }).map((_, i) => (
+          <ShootingStar key={i} index={i} />
         ))}
       </Canvas>
     </div>

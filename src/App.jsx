@@ -12,6 +12,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import SkillDetail from './components/SkillDetail';
+import ProjectDetail from './pages/ProjectDetail';
 import Background from './components/Background';
 import MatrixCursor from './components/MatrixCursor';
 
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/skill/:name" element={<SkillDetail />} />
+        <Route path="/project/:id" element={<ProjectDetail />} />
       </Routes>
     </Router>
   );

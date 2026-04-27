@@ -67,7 +67,7 @@ const MatrixCursor = () => {
       
       if (isVisibleRef.current) {
         const { x, y } = mouseRef.current;
-        const radius = 250; // Radius of the "flashlight"
+        const radius = 120; // Radius of the "flashlight"
         const diameter = radius * 2;
         
         // Calculate draw bounds to optimize performance

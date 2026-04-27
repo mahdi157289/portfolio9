@@ -10,7 +10,7 @@
  * Overall utility in the project: Decouples content from code, making updates easier.
  */
 
-import { Code, Database, Palette, Puzzle, Gamepad2, ShoppingCart, Layout, BarChart, Glasses, MessageSquare, Users, Clock, Github, Linkedin, Twitter } from 'lucide-react';
+import { Code, Database, Palette, Puzzle, Gamepad2, ShoppingCart, Layout, BarChart, Glasses, MessageSquare, Users, Clock, Github, Linkedin, Twitter, Activity, Zap } from 'lucide-react';
 
 export const social = [
   { icon: Github, link: "#" },
@@ -146,12 +146,120 @@ export const projects = {
   title: "Featured",
   titleHighlight: "Projects",
   items: [
-    { title: '3D Product Showcase', category: 'Three.js / WebGL', color: 'from-purple-600 to-blue-600', icon: Gamepad2 },
-    { title: 'E-Commerce Platform', category: 'React / Node.js', color: 'from-pink-600 to-red-600', icon: ShoppingCart },
-    { title: 'Portfolio Generator', category: 'Next.js / AI', color: 'from-green-600 to-teal-600', icon: Layout },
-    { title: 'Social Dashboard', category: 'React / D3.js', color: 'from-orange-600 to-yellow-600', icon: BarChart },
-    { title: 'AR Web Experience', category: 'WebXR / Three.js', color: 'from-indigo-600 to-purple-600', icon: Glasses },
-    { title: 'Real-time Chat App', category: 'Socket.io / React', color: 'from-cyan-600 to-blue-600', icon: MessageSquare }
+    {
+      id: 'makroudh-omrani',
+      title: 'Makroudh Omrani E-Commerce',
+      category: 'E-Commerce Platform',
+      color: 'from-amber-600 to-orange-600',
+      icon: ShoppingCart,
+      image: '/assets/projects/makrouthomrani/logo.png',
+      description: 'A full-stack international e-commerce platform for authentic Tunisian sweets, featuring product catalog, cart management, global shipping calculator, and an admin dashboard.',
+      link: 'https://www.makroudomrani.com',
+      tech: ['Next.js', 'React', 'TailwindCSS', 'Node.js', 'PostgreSQL', 'Stripe'],
+      details: {
+        bigLogo: '/assets/projects/makrouthomrani/logo.png',
+        screenshots: [
+          '/assets/projects/makrouthomrani/screenshot_1.png',
+          '/assets/projects/makrouthomrani/screenshot_2.png',
+          '/assets/projects/makrouthomrani/screenshot_3.png'
+        ],
+        overview: 'Makroudh Omrani is a premium online store selling traditional Tunisian sweets. The platform provides a seamless localized experience (French, English, Arabic), featuring complex product variants (packages, weights) and dynamic global shipping calculations.',
+        functionality: [
+          'Multi-language product catalog (i18n) and currency support',
+          'Intelligent cart and checkout workflow',
+          'Custom admin dashboard for inventory and order management',
+          'Responsive design with optimized image delivery',
+          'Secure payment gateway integration'
+        ]
+      }
+    },
+    {
+      id: 'factory-coif',
+      title: 'Factory Coif Barber',
+      category: 'Booking & Presentation',
+      color: 'from-zinc-600 to-black',
+      icon: Layout,
+      image: '/assets/projects/factorycoif/factory coif logo.jpg',
+      description: 'A modern, stylish landing page and booking system for a high-end barber shop. Features a sleek dark mode design and smooth interactions.',
+      link: 'https://barber-phi-virid.vercel.app/',
+      tech: ['React', 'Vite', 'TailwindCSS', 'Framer Motion'],
+      details: {
+        bigLogo: '/assets/projects/factorycoif/factory coif logo.jpg',
+        video: '/assets/projects/factorycoif/screenshot_1.mp4',
+        screenshots: [
+          '/assets/projects/factorycoif/screenshot_2.png',
+          '/assets/projects/factorycoif/screenshot_3.png',
+          '/assets/projects/factorycoif/screenshot_4.png'
+        ],
+        overview: 'Factory Coif provides a premium digital storefront for a modern barbershop. The application uses a stark, visually striking dark aesthetic combined with smooth scrolling and animations to convey elegance and precision, matching the brand identity.',
+        functionality: [
+          'Dynamic service and price listing',
+          'Interactive image gallery for haircut styles',
+          'Customer booking appointment integration',
+          'High-performance animations powered by Framer Motion',
+          'Fully responsive layout designed mobile-first'
+        ]
+      }
+    },
+    {
+      id: 'protein-lab',
+      title: 'Protein Lab Store',
+      category: 'Nutrition E-Commerce',
+      color: 'from-blue-600 to-cyan-600',
+      icon: ShoppingCart,
+      image: '/assets/projects/protein lab/screenshot_21.png',
+      description: 'A high-performance online store for sports nutrition and supplements. Designed with an aggressive, modern athletic aesthetic.',
+      link: 'https://proteinlab.tn/',
+      tech: ['React', 'Vite', 'TailwindCSS', 'i18n', 'Supabase'],
+      details: {
+        bigLogo: '/assets/projects/protein lab/screenshot_21.png',
+        video: '/assets/projects/protein lab/screenshot_20.mp4',
+        screenshots: [
+          '/assets/projects/protein lab/screenshot_1.png',
+          '/assets/projects/protein lab/screenshot_2.png',
+          '/assets/projects/protein lab/screenshot_3.png'
+        ],
+        overview: 'Protein Lab is a dedicated platform for athletes and fitness enthusiasts to purchase nutritional supplements. The site features a high-energy design utilizing the Orbitron font, fast loading times, and a comprehensive product filter system.',
+        functionality: [
+          'Advanced product filtering by category, goal, and brand',
+          'Multi-language support for diverse customer base',
+          'Admin routing for quick inventory updates',
+          'Performance optimized React architecture',
+          'Interactive cart and secure checkout process'
+        ]
+      }
+    },
+    {
+      id: 'samurai-nutrition',
+      title: 'SAMURAI Nutrition',
+      category: 'Sports Nutrition E-Commerce',
+      color: 'from-red-600 to-rose-700', // Samurai theme
+      icon: Activity,
+      image: '/assets/projects/sammurai/logo.jpg',
+      description: 'A complete e-commerce platform for sports nutrition, featuring secure authentication, advanced product search, and a modern dark/light mode UI.',
+      link: '#', // No link found in README
+      tech: ['React 18', 'Flask', 'SQLAlchemy', 'TailwindCSS', 'Shadcn/UI', 'JWT'],
+      details: {
+        bigLogo: '/assets/projects/sammurai/logo.jpg',
+        video: '/assets/projects/sammurai/video_main.mp4',
+        screenshots: [
+          '/assets/projects/sammurai/screenshot_1.png',
+          '/assets/projects/sammurai/screenshot_2.png',
+          '/assets/projects/sammurai/screenshot_3.png',
+          '/assets/projects/sammurai/screenshot_4.png',
+          '/assets/projects/sammurai/screenshot_5.png'
+        ],
+        overview: 'SAMURAI Nutrition is a robust web application built specifically for the athletics and fitness community. It integrates a Flask backend with a modern React frontend to provide a seamless supplement purchasing experience, prioritizing security with JWT authentication and performance through efficient database management.',
+        functionality: [
+          'Secure JWT-based user authentication and profile management',
+          'Searchable and filterable product catalog with real-time updates',
+          'Dynamic shopping cart and wishlist system',
+          'Full-featured management of user commands and orders',
+          'Modern, responsive interface with both Light and Dark mode support',
+          'Custom UI components built with Shadcn/UI for a premium feel'
+        ]
+      }
+    }
   ]
 };
 
